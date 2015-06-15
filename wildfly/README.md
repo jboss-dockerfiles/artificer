@@ -1,4 +1,4 @@
-Artificer: Wildfly 8.2
+Artificer: Wildfly
 ======================
 
 All individuals, teams, and organizations tend to have a tangled mess of "stuff". That bucket can include bits of information, logical metadata, and physical files. Those "artifacts" are almost never isolated in nature. They're all connected and inter-dependent, but the relationships can be difficult to understand.
@@ -15,8 +15,8 @@ Visit [artificer.jboss.org](http://artificer.jboss.org) to learn more.
 
 To start Artificer
 
-    docker run -it -p 8080:8080 jboss/artificer/wildfly82[:tag]
+    docker run -it -p 8080:8080 jboss/artificer/wildfly[:tag]
 
 ## Building the image
 
-    docker build -t jboss/artificer/wildfly82[:tag] --rm .
+    docker build -t jboss/artificer/wildfly[:tag] --rm .
