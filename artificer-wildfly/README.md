@@ -15,8 +15,8 @@ Visit [artificer.jboss.org](http://artificer.jboss.org) to learn more.
 
 To start Artificer
 
-    docker run -it -p 8080:8080 jboss/artificer/wildfly[:tag]
+    docker run -it -p 8080:8080 jboss/artificer-wildfly[:tag]
 
 ## Building the image
 
-    docker build -t jboss/artificer/wildfly[:tag] --rm .
+    docker build -t jboss/artificer-wildfly[:tag] --rm .
