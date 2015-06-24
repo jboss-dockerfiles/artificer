@@ -13,4 +13,4 @@ RUN cd $HOME \
   && cd .. \
   && rm -rf artificer*  
 
-CMD ["wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-c", "standalone-full.xml", "-Dkeycloak.import=wildfly/artificer-realm.json", "-Dhibernate.hbm2ddl.auto=update"]
+CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-c", "standalone-full.xml", "-Dkeycloak.import=wildfly/artificer-realm.json", "-Dhibernate.hbm2ddl.auto=update"]
