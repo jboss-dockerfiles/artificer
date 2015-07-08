@@ -2,7 +2,7 @@ FROM jboss/wildfly:8.2.0.Final
 
 MAINTAINER Brett Meyer <brmeyer@redhat.com>
 
-ENV ARTIFICER_VERSION 1.0.0.Beta2
+ENV ARTIFICER_VERSION 1.0.0.Final
 
 RUN cd $HOME \
   && curl http://downloads.jboss.org/artificer/artificer-$ARTIFICER_VERSION.zip | bsdtar -xvf- \
